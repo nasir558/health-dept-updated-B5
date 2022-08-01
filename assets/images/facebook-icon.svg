@@ -1,0 +1,8 @@
+<svg id="facebook_icon" data-name="facebook icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="10" height="18" viewBox="0 0 10 18">
+  <defs>
+    <pattern id="pattern" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 54 101">
+      <image width="54" height="101" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADYAAABlCAYAAAAGXxCEAAAABHNCSVQICAgIfAhkiAAAAXhJREFUeF7tmdsOwiAQROX/P7qGGk0T0+gsuwwhx+dSOpdDkbbjOB7GX9nkzSCsTMw1oJnCpgh6i5shbKqgWcIsorq4ysRsoiqFWUVVCbOLqhC2hCiE/bkzWSatzMSWEoWwH1VcLq2sxBD25yKUclnGlmrLxJYUlcEYwlLAEW4yytiMxJqg53PpysJCgrL+QVclNiRq5cUDYXf8rcoYiZGY+M5gVRQNgzEYEysDY6JhMFbBWFUNzz2smPDX5X1LVfmAo88XHd92FXZ++NsxMYRFu24bRxVt1gcnJrGgcbZhJGazPjgxiQWNsw0jMZv1wYlJLGicbRiJ2awPTkxiQeNsw67fx3Y5IjhPuPjwd9OpqpRTzhVHOECY6B6JVZzd93tSRar4cgDGYExkgcVDNAzGYEysDIyJhsEYjImVgTHRMBiDMbEyMCYaBmMwJlYGxkTDYAzGxMrAmGgYjMGYWBkYEw2DMRgTKwNjomEwBmNiZSoYG65h1/AEprCTHmQ67DAAAAAASUVORK5CYII="/>
+    </pattern>
+  </defs>
+  <rect id="facebook_icon-2" data-name="facebook icon" width="10" height="18" fill="url(#pattern)"/>
+</svg>
