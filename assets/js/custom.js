@@ -62,7 +62,7 @@ $(document).ready(function ($) {
 
         var adminSlideHeigt = $('.admistration-slider .admin-slides.slick-slide.slick-current.slick-active .details').height() + 60 + "px";
         $('.administation-slider-thumbnails').css('top', adminSlideHeigt);
-        
+
     }
     getCurrentSlideNumber();
     $('.admistration-slider').on('afterChange', function (event, slick, currentSlide, nextSlide) {
@@ -119,4 +119,8 @@ $(document).ready(function ($) {
     $(window).resize(function () {
         appendControls();
     });
+    $('#toggleGreyLayout').click(function (e) {
+        e.preventDefault();
+        $('body').toggleClass('greyScaleLayout');
+    })
 });
