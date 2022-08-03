@@ -164,7 +164,7 @@ header {
                                 border: none !important;
                                 display: none !important;
                             }
-                        }                        
+                        }
 
                         @extend .dropdown-menu-custom;
                     }
@@ -1134,6 +1134,52 @@ header {
         }
     }
 }
+
+.inner-pages-header {
+    min-height: auto;
+
+    .overlay-bg {
+        background-color: $green;
+        min-height: auto;
+        padding-bottom: 0;
+
+        .main-navigation {
+            background-color: $white;
+
+            .navbar-container {
+                .navbar {
+                    ul.navbar-nav {
+                        li {
+                            a {
+                                color: $darkBlue;
+
+                                img {
+                                    -webkit-filter: invert(100%);
+                                    filter: invert(100%);
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .search-mobile-version {
+                    img {
+                        -webkit-filter: invert(100%);
+                        filter: invert(100%);
+                    }
+
+                    .lang-selector {
+                        .dropdown-toggle {
+                            color: $darkBlue;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@import "projects";
 
 footer {
     .footer-top {

@@ -63,13 +63,14 @@ figure {
         border-radius: 10px !important;
         padding: 0 !important;
         overflow: hidden !important;
+        background: none;
 
         li {
+            background-color: $white;
 
             a {
                 font-weight: 600;
-                padding-top: 7px;
-                padding-bottom: 7px;
+                padding: 10px 17px;
                 text-transform: uppercase;
                 color: $darkBlue;
                 border-bottom: thin solid $lightGrey;
@@ -186,4 +187,58 @@ figure {
         font-size: 35px;
         line-height: 44px;
     }
+}
+
+.page-title-banner {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+
+    .banner-overlay {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background: transparent linear-gradient(180deg, #FFFFFF00 0%, #27272775 54%, #272727DB 100%) 0% 0% no-repeat padding-box;
+    }
+
+    .title-con {
+        min-height: 183px;
+
+        .page-title {
+            font-size: 30px;
+            line-height: 50px;
+            color: $white;
+        }
+    }
+
+    .breadcrumbs-con {
+        .breadcrumb-item+.breadcrumb-item {
+            background-image: url('../images/angle-small-right-white.svg');
+            background-repeat: no-repeat;
+            background-position: 0px 9px;
+            padding-left: 15px;
+            background-size: 6px 11px;
+            &::before {
+                display: none;
+            }
+        }
+
+        li {
+            font-size: 18px;
+            color: $white;
+            padding-left: 10px;
+            padding-right: 10px;
+            &:first-child{
+                padding-left: 0;
+            }
+
+            a {
+                &:hover {
+                    text-decoration: underline;
+                    color: $green;
+                }
+            }
+        }
+    }
+
 }
