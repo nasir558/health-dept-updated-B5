@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="14.14" height="16.889" viewBox="0 0 14.14 16.889">
   <g id="marker" transform="translate(-2)">
-    <path id="Path_525" data-name="Path 525" d="M9.07,0A7.078,7.078,0,0,0,2,7.07C2,10.8,7.939,15.93,8.613,16.5l.457.386.457-.386c.674-.573,6.613-5.7,6.613-9.433A7.078,7.078,0,0,0,9.07,0Zm0,10.6A3.535,3.535,0,1,1,12.6,7.07,3.535,3.535,0,0,1,9.07,10.6Z" fill="#055b28"/>
-    <circle id="Ellipse_4" data-name="Ellipse 4" cx="2" cy="2" r="2" transform="translate(7 5)" fill="#055b28"/>
+    <path id="Path_525" data-name="Path 525" d="M9.07,0A7.078,7.078,0,0,0,2,7.07C2,10.8,7.939,15.93,8.613,16.5l.457.386.457-.386c.674-.573,6.613-5.7,6.613-9.433A7.078,7.078,0,0,0,9.07,0Zm0,10.6A3.535,3.535,0,1,1,12.6,7.07,3.535,3.535,0,0,1,9.07,10.6Z" fill="#0D8C60"/>
+    <circle id="Ellipse_4" data-name="Ellipse 4" cx="2" cy="2" r="2" transform="translate(7 5)" fill="#0D8C60"/>
   </g>
 </svg>
