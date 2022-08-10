@@ -1135,6 +1135,73 @@ header {
     }
 }
 
+.achievement {
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+    .items {
+        background-color: $green;
+        padding-bottom: 50px;
+        color: $white;
+        border-radius: 15px;
+
+        .icon-border {
+            margin: auto;
+            -webkit-transform: none;
+            transform: none;
+            -webkit-transition: none;
+            transition: none;
+            margin-top: 50px;
+        }
+
+        .read-more-link{
+            font-size: 22px;
+            line-height: 28px;
+            font-weight: 600;
+
+            &:hover{
+                color: $yellow;
+                text-decoration: underline;
+            }
+        }
+        
+        .description{
+            line-height: 22px;
+        }
+
+        &:before, &:after {
+            z-index: -1;
+            position: absolute;
+            content: "";
+            bottom: 15px;
+            left: 10px;
+            width: 50%;
+            top: 80%;
+            max-width: 300px;
+            background: #777;
+            -webkit-box-shadow: 0 15px 10px #777;
+            -moz-box-shadow: 0 15px 10px #777;
+            box-shadow: 0 15px 10px #777;
+            -webkit-transform: rotate(-3deg);
+            -moz-transform: rotate(-3deg);
+            -o-transform: rotate(-3deg);
+            -ms-transform: rotate(-3deg);
+            transform: rotate(-3deg);
+        }
+
+        &:after {
+            -webkit-transform: rotate(3deg);
+            -moz-transform: rotate(3deg);
+            -o-transform: rotate(3deg);
+            -ms-transform: rotate(3deg);
+            transform: rotate(3deg);
+            right: 10px;
+            left: auto;
+        }
+    }
+
+}
+
 .inner-pages-header {
     min-height: auto;
 
