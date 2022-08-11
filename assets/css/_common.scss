@@ -319,78 +319,78 @@ figure {
     }
 
 
-			#newlist {
-                ol{
-                    counter-reset: li;
-                    list-style: none;
-                    *list-style: decimal;
-                    font-size: 14px;
-                    padding: 0;
-                    margin-bottom: 4em;
-                }
+    #newlist {
+        ol {
+            counter-reset: li;
+            list-style: none;
+            *list-style: decimal;
+            font-size: 14px;
+            padding: 0;
+            margin-bottom: 4em;
+
+            ol {
+                margin: 0 0 0 2em;
             }
 
-			#newlist ol ol{
-				margin: 0 0 0 2em;
-			}
+        }
 
-		
+        .rectangle-list {
+            a {
+                position: relative;
+                display: block;
+                padding: .4em .4em .4em .8em;
+                *padding: .4em;
+                margin: .5em 0 .5em 2.5em;
+                background: $lightGrey;
+                color: $darkBlue;
+                text-decoration: none;
+                -webkit-transition: all .3s ease-out;
+                -moz-transition: all .3s ease-out;
+                -ms-transition: all .3s ease-out;
+                -o-transition: all .3s ease-out;
+                transition: all .3s ease-out;
 
-		.rectangle-list a{
-				position: relative;
-				display: block;
-				padding: .4em .4em .4em .8em;
-				*padding: .4em;
-				margin: .5em 0 .5em 2.5em;
-				background: $lightGrey;
-				color: $darkBlue;
-				text-decoration: none;
-				-webkit-transition: all .3s ease-out;
-				-moz-transition: all .3s ease-out;
-				-ms-transition: all .3s ease-out;
-				-o-transition: all .3s ease-out;
-				transition: all .3s ease-out;	
-			}
+                &:before {
+                    content: counter(li);
+                    counter-increment: li;
+                    position: absolute;
+                    left: -2.5em;
+                    top: 50%;
+                    margin-top: -1em;
+                    background: $green;
+                    height: 2em;
+                    width: 2em;
+                    font-weight: 300;
+                    color: $white;
+                    line-height: 2em;
+                    text-align: center;
+                    font-weight: bold;
+                }
 
-				.rectangle-list a:hover{
-				background: $offWhite;
-			}	
+                &:after {
+                    position: absolute;
+                    content: '';
+                    border: .5em solid transparent;
+                    left: -1em;
+                    top: 50%;
+                    margin-top: -.5em;
+                    -webkit-transition: all .3s ease-out;
+                    -moz-transition: all .3s ease-out;
+                    -ms-transition: all .3s ease-out;
+                    -o-transition: all .3s ease-out;
+                    transition: all .3s ease-out;
+                }
 
-				.rectangle-list a:before{
-				content: counter(li);
-				counter-increment: li;
-				position: absolute;	
-				left: -2.5em;
-				top: 50%;
-				margin-top: -1em;
-				background: $green;
-				height: 2em;
-				width: 2em;
-                font-weight: 300;
-                color: $white;
-				line-height: 2em;
-				text-align: center;
-				font-weight: bold;
-			}
-			
-				.rectangle-list a:after{
-				position: absolute;	
-				content: '';
-				border: .5em solid transparent;
-				left: -1em;
-				top: 50%;
-				margin-top: -.5em;
-				-webkit-transition: all .3s ease-out;
-				-moz-transition: all .3s ease-out;
-				-ms-transition: all .3s ease-out;
-				-o-transition: all .3s ease-out;
-				transition: all .3s ease-out;				
-			}
+                &:hover {
+                    background: $offWhite;
 
-				.rectangle-list a:hover:after{
-				left: -.5em;
-				border-left-color: $green;				
-			}
-
+                    &:after {
+                        left: -.5em;
+                        border-left-color: $green;
+                    }
+                }
+            }
+        }
+    }
 
 }

@@ -301,7 +301,7 @@ figure {
   margin: 0 0 0 2em;
 }
 
-.modal-box-alert .rectangle-list a {
+.modal-box-alert #newlist .rectangle-list a {
   position: relative;
   display: block;
   padding: .4em .4em .4em .8em;
@@ -314,11 +314,7 @@ figure {
   transition: all .3s ease-out;
 }
 
-.modal-box-alert .rectangle-list a:hover {
-  background: #F7F7F7;
-}
-
-.modal-box-alert .rectangle-list a:before {
+.modal-box-alert #newlist .rectangle-list a:before {
   content: counter(li);
   counter-increment: li;
   position: absolute;
@@ -335,7 +331,7 @@ figure {
   font-weight: bold;
 }
 
-.modal-box-alert .rectangle-list a:after {
+.modal-box-alert #newlist .rectangle-list a:after {
   position: absolute;
   content: '';
   border: .5em solid transparent;
@@ -346,7 +342,11 @@ figure {
   transition: all .3s ease-out;
 }
 
-.modal-box-alert .rectangle-list a:hover:after {
+.modal-box-alert #newlist .rectangle-list a:hover {
+  background: #F7F7F7;
+}
+
+.modal-box-alert #newlist .rectangle-list a:hover:after {
   left: -.5em;
   border-left-color: #0D8C60;
 }
