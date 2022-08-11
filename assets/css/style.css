@@ -253,6 +253,104 @@ figure {
   font-size: 40px;
 }
 
+.modal-box-alert .list-title {
+  font-size: 24px;
+}
+
+.modal-box-alert .img-text {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #252638;
+}
+
+.modal-box-alert .img-text a {
+  color: #0D8C60;
+}
+
+.modal-box-alert .img-text a:hover {
+  color: #252638;
+  text-decoration: underline;
+}
+
+.modal-box-alert .modal-footer,
+.modal-box-alert .modal-header {
+  padding: 0.5rem 0.5rem;
+  border: none;
+}
+
+.modal-box-alert .modal-header .btn-close {
+  padding: 2px 2px;
+  width: 0.5rem;
+  height: 0.5rem;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  outline: none;
+  margin: -0.5px -0.5px -0.5px auto;
+}
+
+.modal-box-alert #newlist ol {
+  counter-reset: li;
+  list-style: none;
+  *list-style: decimal;
+  font-size: 14px;
+  padding: 0;
+  margin-bottom: 4em;
+}
+
+.modal-box-alert #newlist ol ol {
+  margin: 0 0 0 2em;
+}
+
+.modal-box-alert .rectangle-list a {
+  position: relative;
+  display: block;
+  padding: .4em .4em .4em .8em;
+  *padding: .4em;
+  margin: .5em 0 .5em 2.5em;
+  background: #DBDBDB;
+  color: #252638;
+  text-decoration: none;
+  -webkit-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+}
+
+.modal-box-alert .rectangle-list a:hover {
+  background: #F7F7F7;
+}
+
+.modal-box-alert .rectangle-list a:before {
+  content: counter(li);
+  counter-increment: li;
+  position: absolute;
+  left: -2.5em;
+  top: 50%;
+  margin-top: -1em;
+  background: #0D8C60;
+  height: 2em;
+  width: 2em;
+  font-weight: 300;
+  color: #FFFFFF;
+  line-height: 2em;
+  text-align: center;
+  font-weight: bold;
+}
+
+.modal-box-alert .rectangle-list a:after {
+  position: absolute;
+  content: '';
+  border: .5em solid transparent;
+  left: -1em;
+  top: 50%;
+  margin-top: -.5em;
+  -webkit-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+}
+
+.modal-box-alert .rectangle-list a:hover:after {
+  left: -.5em;
+  border-left-color: #0D8C60;
+}
+
 header {
   background-size: cover;
   background-attachment: fixed;
