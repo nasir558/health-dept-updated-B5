@@ -2161,6 +2161,62 @@ header .main-navigation .search-mobile-version .d-flex .seperater {
   transform: scale(1);
 }
 
+.contact-us {
+  margin-top: 100px;
+}
+
+.contact-us .contact-item {
+  text-align: center;
+  border: 1px solid #DBDBDB;
+  min-height: 180px;
+  position: relative;
+  background: #F7F7F7;
+  padding: 30px 15px;
+  padding-top: 60px;
+  margin-bottom: 71px;
+}
+
+.contact-us .contact-item .contact-icon {
+  position: absolute;
+  width: 82px;
+  height: 82px;
+  line-height: 76px;
+  top: 0px;
+  left: 50%;
+  background: #F7F7F7;
+  border-radius: 50%;
+  border: 1px solid #DBDBDB;
+  margin-top: -41px;
+  -webkit-transform: translate(-50%, 0%);
+          transform: translate(-50%, 0%);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.contact-us .contact-item .contact-icon img {
+  width: 24px;
+}
+
+.contact-us .contact-item .contact-text {
+  margin-top: 0px;
+  color: #252638;
+}
+
+.contact-us .contact-item .contact-text h4 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.contact-us .contact-item .contact-text p {
+  margin: 0;
+}
+
+.contact-us .contact-item:hover .contact-icon {
+  background-color: #FFFFFF;
+  border-color: #0D8C60;
+}
+
 footer .footer-top {
   padding-top: 52px;
   padding-bottom: 52px;

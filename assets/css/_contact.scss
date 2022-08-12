@@ -1,0 +1,56 @@
+.contact-us {
+    margin-top: 100px;
+
+    .contact-item {
+        text-align: center;
+        border: 1px solid $lightGrey;
+        min-height: 180px;
+        position: relative;
+        background: $offWhite;
+        padding: 30px 15px;
+        padding-top: 60px;
+        margin-bottom: 71px;
+
+        .contact-icon {
+            position: absolute;
+            width: 82px;
+            height: 82px;
+            line-height: 76px;
+            top: 0px;
+            left: 50%;
+            background: $offWhite;
+            border-radius: 50%;
+            border: 1px solid $lightGrey;
+            margin-top: -41px;
+            transform: translate(-50%, 0%);
+            -webkit-transition: all 0.3s;
+            transition: all 0.3s;
+
+            img{
+                width: 24px;
+            }
+        }
+
+        .contact-text {
+            margin-top: 0px;
+            color: $darkBlue;
+
+            h4 {
+                font-size: 18px;
+                font-weight: 700;
+                margin-bottom: 5px;
+            }
+
+            p {
+                margin: 0;
+            }
+        }
+
+        &:hover {
+            .contact-icon {
+                background-color: $white;
+                border-color: $green;
+            }
+        }
+    }
+}
